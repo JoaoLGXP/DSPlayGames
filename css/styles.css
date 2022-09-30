@@ -1,0 +1,490 @@
+:root {
+    --color-green: #38AF90;
+    --color-gray: #797979;
+    --color-soft-red: #DD7E92;
+    --color-dark-gray: #383838;
+    --color-white: #fff;
+    --color-soft-gray: #F0F0F0;
+    --color-very-soft-gray: #C4C4C4
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Inicio Header */
+.nav-container {
+    background-color: var(--color-green);
+    height: 90px;
+    width: 100%;
+}
+
+.nav-principal {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.nav-title {
+    margin: 32px 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--color-white);
+}
+
+
+.itens-menu {
+    display: flex;
+
+}
+
+.itens-menu ul{
+    display: flex;
+    list-style: none;
+    display: none;
+}
+
+.itens-menu img {
+    width: 62px;
+    margin: 14px 10px;
+}
+
+/* Inicio Noticias */
+.container {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.latest-news {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--color-gray);
+}
+
+.news-card {
+    background-color: var(--color-soft-gray);
+    border-radius: 8px;
+    margin: 8px 10px 28px 10px;
+}
+
+.news-card p {
+    color: var(--color-gray);
+    font-weight: 400;
+    font-size: 10px;
+    margin: 0 12px ;
+    text-align: start;
+
+}
+
+.news-title {
+    color: var(--color-green);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px 13px 3px 12px;
+    text-align: start;
+    display: flex;
+}
+
+.title-description {
+    color: var(--color-gray);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 0 12px 7px 13px;
+    text-align: start;
+}
+
+.news-date {
+    color: var(--color-green);
+    font-weight: 400;
+    font-size: 10px;
+    padding: 0 12px 12px 13px;
+    text-align: start;
+}
+
+.continuation-news {
+    color: var(--color-soft-red);
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 16px 12px 12px;
+    text-align: start;
+}
+
+.most-news {
+    text-align: center;
+    border-radius: 8px;
+    text-align: start;
+}
+
+.container input {
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    background-color: var(--color-soft-red);
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--color-white);
+    border: none;
+    margin-bottom: 40px;
+}
+/* Fim Noticias */
+
+/* Inicio Games */
+.all-games {
+    width: 100%;
+    background-color: var(--color-soft-gray);
+}
+
+.container-games {
+    width: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.cards {
+    margin: 0 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-games {
+    text-align: center;
+    padding: 40px 0 28px 0;
+    font-weight: 700;
+    size: 24px;
+    color: var(--color-green);
+}
+
+.games-card {
+    width: 300px;
+    height: 326px;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 27px;
+    text-align: center;
+
+}
+
+.games-card img {
+    width: 100%;
+    height: 168px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.games-card p {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--color-gray);
+    margin-bottom: 13px;
+}
+
+.game-name {
+    margin-top: 27px;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--color-gray);
+}
+
+.game-from {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--color-green);
+    margin-bottom: 13px;
+}
+
+.game-note {
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--color-green);
+}
+/* Fim Games */
+
+/* Inicio Cadastro */
+#sign-up {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;   
+}
+
+.sign-up-title {
+    margin: 40px 0 16px 0;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--color-gray);
+}
+
+.sign-up-container {
+    background-color: var(--color-soft-gray);
+    width: 300px;
+    height: 603px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.personal-data-name ::placeholder {
+    padding: 13px 0 13px 22px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-very-soft-gray);
+}
+
+.personal-data-email ::placeholder {
+    padding: 13px 0 13px 22px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-very-soft-gray);
+}
+
+.personal-data-name input {
+    width: 280px;
+    height: 50px;
+    margin: 52px 0 20px 0;
+    border-radius: 4px;
+    border: solid var(--color-gray);
+}
+
+.personal-data-email input {
+    width: 280px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: solid var(--color-gray);
+}
+
+.platform-games {
+    text-align: start;
+    margin-left: 10px;
+    font: 400;
+    font-size: 16px;
+    color: var(--color-gray);
+    margin-bottom: 35px;
+}
+
+.notice-news {
+    text-align: start;
+    margin-left: 10px;
+    font: 400;
+    font-size: 16px;
+    color: var(--color-gray);
+    margin-bottom: 47px;
+}
+
+.button-submit input {
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    background-color: var(--color-soft-red);
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--color-white);
+    border: none;
+    margin-bottom: 20px;
+}
+
+.button-clear input {
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    background-color: var(--color-white);
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--color-soft-red);
+    border: none;
+    margin-bottom: 33px;
+    border: solid var(--color-soft-red);
+}
+/* Fim Cadastro */
+
+/* Inicio Footer */
+footer {
+    width: 100%;
+    height: 302px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    background-color: var(--color-dark-gray);
+    color: var(--color-white);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.social-media-footer {
+    margin: 28px 0 37px 0;
+}
+
+.information {
+    margin-bottom: 37px;
+}
+/* Fim Footer */
+
+@media(min-width: 768px) {
+    .nav-title {
+        font-size: 24px;
+        margin: 27px 0 27px 0;
+    }
+
+    .itens-menu li {
+        display: flex;
+        list-style: none;
+        font-weight: 500;
+        font-size: 14px;
+        margin: 34px 29px 0 0   ;
+    }
+
+    .itens-menu a{
+        text-decoration: none;
+        color: var(--color-white);
+    }
+
+    .itens-menu ul {
+         display: flex;
+        list-style: none;
+        text-decoration: none;
+    }
+/* Fim Header*/
+
+/*Inicio Noticias*/
+    .latest-news {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    .news-card {
+        margin: 0 0 40px 0;
+    }
+
+    .news-title {
+        font-size: 24px;
+    }
+
+    .title-description {
+        font-size: 16px;
+    }
+/* Fim Noticias */
+
+/* Inicio Games */
+.all-games {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: var(--color-soft-gray);
+}
+
+.container-games {
+    width: 100%;
+    max-width: 990px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.cards {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 43px;
+}
+
+.games-card  {
+    margin-right: 30px;
+}
+
+.title-games {
+    font-size: 36px;
+    margin-bottom: 73px;
+    margin-top: 36px;
+    padding: 0;
+}
+/* Fim Games*/
+
+/* Inicio Formulario*/
+.sign-up-container {
+    width: 790px;
+    height: 522px;
+}
+
+.sign-up-title {
+    font-size: 36px;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.personal-data-name input {
+    width: 642px;
+}
+
+.personal-data-email input {
+    width: 642px;
+}
+
+.platform-games {
+    margin-left: 72px;
+}
+
+.notice-news {
+    margin-left: 72px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.button-submit {
+    margin: 0 52px 0 152px;
+}
+
+.button-clear {
+
+}
+
+footer {
+    height: 190px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+
+}
+
+.social-media-footer {
+    margin-top: 74px;
+}
+
+.information {
+    margin-top: 84px;
+}
+
+.more-information {
+    margin-top: 74px;
+}
