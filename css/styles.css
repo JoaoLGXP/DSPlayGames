@@ -459,10 +459,9 @@ footer {
 .button-submit {
     margin: 0 52px 0 152px;
 }
+/* Fim Formulario*/
 
-.button-clear {
-
-}
+/*Inicio Footer*/
 
 footer {
     height: 190px;
@@ -474,7 +473,6 @@ footer {
     width: 100%;
     max-width: 990px;
     margin: 0 auto;
-
 }
 
 .social-media-footer {
